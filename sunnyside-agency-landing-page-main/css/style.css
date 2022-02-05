@@ -3,11 +3,107 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 ul{list-style: none;}
 a{text-decoration: none;}
-header{
-    position: fixed;
-    z-index: 2;
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.banner > img{
+header{
+    padding-top: 50px;
     width: 100%;
     height: 100vh;
+    background: url(../images/mobile/image-header.jpg)center center/100% no-repeat;
+}
+.logo{
+    margin-left: 20px;
+}
+.btn-menu{
+    margin-right: 20px;
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.menu{
+    background-color: white;
+    margin: 0 5%;
+    padding: 60px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 50px;
+    display: none;
+}
+.menu-item a{
+    color: gray;
+}
+#menu-contato{
+    background-color: yellow;
+    border-radius: 100px;
+    margin: auto;
+    width: 200px;
+}
+#menu-contato a{
+    color: black;
+}
+.titulo{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    margin-top: 5%;
+}
+.titulo img{
+    margin: 10%;
+}
+.box-1{
+    width: 100%;
+    text-align: center;
+    color: grey;
+    margin-bottom: 50px;
+}
+.box-1 img{
+    width: 100%;
+}
+.box-1 h2{
+    margin: 20px;
+    color: black;
+    font-size: 2em;
+    
+}
+.box-1 p{
+    margin: 0 5%;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+.box-1 a{
+    color: black;
+    text-decoration: underline;
+}
+.div-design{
+    background: url(../images/mobile/image-graphic-design.jpg) center center/100% no-repeat;
+    width: 100%;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.795);
+}
+.div-design h2{
+    padding-top: 75vh;
+    font-size: 2.5em;
+}
+.div-design p{
+    font-size: 1.2em;
+    margin-top: 30px;
+    padding: 0 5% 20vh;
+}
+.div-photo{
+    background: url(../images/mobile/image-photography.jpg) center center/100% no-repeat;
+    width: 100%;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.795);
+}
+.div-photo h2{
+    padding-top: 75vh;
+    font-size: 2.5em;
+}
+.div-photo p{
+    font-size: 1.2em;
+    margin-top: 30px;
+    padding: 0 5% 20vh;
 }
