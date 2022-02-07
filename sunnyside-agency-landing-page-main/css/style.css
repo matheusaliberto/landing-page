@@ -107,6 +107,7 @@ header{
 }
 .clients{
     text-align: center;
+    padding-bottom: 50px;
 }
 .clients h2{
     font-size: 2em;
@@ -135,8 +136,11 @@ header{
     display: inline;
 
 }
-.galery img{
-    width: 49%;
+.galery div{
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    display: inline;
 }
 footer{
     background-color: rgb(134, 219, 219);
