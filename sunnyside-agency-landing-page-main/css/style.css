@@ -4,7 +4,7 @@ a{text-decoration: none;}
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
     header{
         width: 100%;
         height: 100vh;
@@ -77,8 +77,6 @@ body{
         padding-top: 20px;
     }
     .div-design{
-        padding-top: 85vh;
-        background: url(../images/mobile/image-graphic-design.jpg) center bottom/100% no-repeat;
         width: 100%;
         text-align: center;
         color: rgba(39, 39, 39, 0.795);
@@ -92,8 +90,6 @@ body{
         margin-top: 30px;
     }
     .div-photo{
-        padding-top: 83vh;
-        background: url(../images/mobile/image-photography.jpg) center bottom/100% no-repeat;
         width: 100%;
         text-align: center;
         color: rgba(39, 39, 39, 0.795);
@@ -169,11 +165,15 @@ body{
     .attribution { font-size: 11px; text-align: center; color:rgba(1, 73, 61, 0.9)}
     .attribution a { color: hsl(228, 45%, 44%); }
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 900px){
     header{
         width: 100%;
-        height: 95vh;
+        height: 100vh;
         background: url(../images/desktop/image-header.jpg)center top/100% no-repeat;
+    }
+    .img-head{
+        width: 100%;
+        height: 100vh;
     }
     .logo{
         margin: 30px;
@@ -213,5 +213,12 @@ body{
         text-align: center;
         color: white;
         font-size: 3em;
+    }
+    .galery{
+        width: 100%;
+        display: flex;
+    }
+    .galery picture img{
+        width: 100%;
     }
 }
