@@ -1,0 +1,67 @@
+.attribution { font-size: 11px;text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%);}
+*{margin: 0;padding: 0;}
+body{background-color: rgba(197,228,231,255); text-align: center;margin: 50px 0 0}
+main{
+    margin: 50px auto 0; background-color: white; border-radius: 10px;
+    max-width: 800px;
+    padding: 25px;
+}
+section{
+    padding: 10px;
+}
+#bill{
+    text-align: left;
+}
+#bill input{
+    width: 100%;
+    height: 2.5em;
+    background-color: rgb(218, 242, 255);
+    border: none;
+    border-radius: 5px;
+}
+#tip{
+    text-align: left;
+}
+#tip-btn{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+#tip-btn button{
+    width: 42%;
+    height: 3em;
+    margin: 10px;
+    background-color: rgba(0,71,75,255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+}
+#n-people{
+    text-align: left;
+}
+#n-people input{
+    width: 100%;
+    height: 2.5em;
+    background-color: rgb(218, 242, 255);
+    border: none;
+    border-radius: 5px;
+}
+#result{
+    background-color: rgba(0,71,75,255);
+    border-radius: 10px;
+    color: white;
+}
+#result button{
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: none;
+    height: 2em;
+    background-color: rgba(38,194,173,255);
+}
+#
