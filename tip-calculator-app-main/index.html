@@ -19,23 +19,23 @@
   <main>
     <section id="bill">
       <label for="">Bill</label><br>
-      <input type="number" class="billvalue">
+      <input type="number" id="billvalue">
     </section>
     <section id="tip">
       <label for="">Select Tip %</label>
       <div id="tip-btn">
-        <button onclick="calc()">5%</button>
-        <button>10%</button>
-        <button>15%</button>
-        <button>25%</button>
-        <button>50%</button>
-        <button>Custom</button>
+        <button onclick="calc(5)">5%</button>
+        <button onclick="calc(10)">10%</button>
+        <button onclick="calc(15)">15%</button>
+        <button onclick="calc(25)">25%</button>
+        <button onclick="calc(50)">50%</button>
+        <button onclick="calc(99)">Custom</button>
       </div>
     </section>
 
     <section id="n-people">
       <label for="">Number of People</label><br>
-      <input type="number" class="n">
+      <input type="number" id="npeople">
     </section>
 
     <div id="result">
