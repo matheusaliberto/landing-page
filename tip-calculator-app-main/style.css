@@ -1,7 +1,7 @@
 .attribution { font-size: 11px;text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%);}
 *{margin: 0;padding: 0;}
-body{background-color: rgba(197,228,231,255); text-align: center;margin: 50px 0 0}
+body{background-color: rgba(197,228,231,255); text-align: center;margin: 50px 0 0; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 main{
     margin: 50px auto 0; background-color: white; border-radius: 10px;
     max-width: 800px;
@@ -19,6 +19,7 @@ section{
     background-color: rgb(218, 242, 255);
     border: none;
     border-radius: 5px;
+    text-align: center;
 }
 #tip{
     text-align: left;
@@ -29,7 +30,9 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+}
+#tip-btn button:hover{
+    background-color: rgba(0, 71, 75, 0.74);
 }
 #tip-btn button{
     width: 42%;
@@ -50,6 +53,7 @@ section{
     background-color: rgb(218, 242, 255);
     border: none;
     border-radius: 5px;
+    text-align: center;
 }
 #result{
     padding: 15px;

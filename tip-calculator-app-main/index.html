@@ -19,12 +19,12 @@
   <main>
     <section id="bill">
       <label for="">Bill</label><br>
-      <input type="number">
+      <input type="number" class="billvalue">
     </section>
     <section id="tip">
       <label for="">Select Tip %</label>
       <div id="tip-btn">
-        <button>5%</button>
+        <button onclick="calc()">5%</button>
         <button>10%</button>
         <button>15%</button>
         <button>25%</button>
@@ -35,20 +35,20 @@
 
     <section id="n-people">
       <label for="">Number of People</label><br>
-      <input type="number">
+      <input type="number" class="n">
     </section>
 
     <div id="result">
       <div id="amount">
         <p>Tip Amount<br>
         <a href="">/ person</a></p>
-        <p>$0,00</p>
+        <p class="result">$0,00</p>
       </div>
 
       <div id="total">
         <p>Total <br>
         <a href="">/ person</a></p>
-        <p>$0,00</p>
+        <p class="total">$0,00</p>
       </div>
       <button id="btn-reset">Reset</button>
     </div>
@@ -56,7 +56,9 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Matheus Francisco</a>.
   </div>
+  <script src="script.js">
+  </script>
 </body>
 </html>
