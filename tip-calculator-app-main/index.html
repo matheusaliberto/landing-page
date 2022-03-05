@@ -17,26 +17,27 @@
 <body>
   <img src="images/logo.svg" alt="">
   <main>
-    <section id="bill">
-      <label for="">Bill</label><br>
-      <input type="number" id="billvalue" step="0.01">
-    </section>
-    <section id="tip">
-      <label for="">Select Tip %</label>
-      <div id="tip-btn">
-        <button onclick="calc(5)">5%</button>
-        <button onclick="calc(10)">10%</button>
-        <button onclick="calc(15)">15%</button>
-        <button onclick="calc(25)">25%</button>
-        <button onclick="calc(50)">50%</button>
-        <button onclick="calc(99)">Custom</button>
-      </div>
-    </section>
-
-    <section id="n-people">
-      <label for="">Number of People</label><br>
-      <input type="number" id="npeople">
-    </section>
+    <div id="data">
+      <section id="bill">
+        <label for="">Bill</label><br>
+        <input type="number" id="billvalue" step="0.01">
+      </section>
+      <section id="tip">
+        <label for="">Select Tip %</label>
+        <div id="tip-btn">
+          <button onclick="calc(5)">5%</button>
+          <button onclick="calc(10)">10%</button>
+          <button onclick="calc(15)">15%</button>
+          <button onclick="calc(25)">25%</button>
+          <button onclick="calc(50)">50%</button>
+          <button onclick="calc(88.838)">Custom</button>
+        </div>
+      </section>
+      <section id="n-people">
+        <label for="">Number of People</label><br>
+        <input type="number" id="npeople" step="1">
+      </section>
+    </div>
 
     <div id="result">
       <div id="amount">
@@ -50,7 +51,7 @@
         <a href="">/ person</a></p>
         <p id="totaltip">$0,00</p>
       </div>
-      <button id="btn-reset" onclick="calc=(88)">Reset</button>
+      <button id="btn-reset" onclick="calc(88.839)">Reset</button>
     </div>
   </main>
   
