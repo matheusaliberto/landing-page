@@ -9,6 +9,8 @@ function calc(ntip){
             var npeople = 0.00
             var tip = 0.00
             var totaltip = 0.00
+            document.getElementById('billvalue').value = ""
+            document.getElementById('npeople').value = ""
         }
         else{
             var fnbill = document.getElementById('billvalue')
