@@ -10,16 +10,23 @@ main{
 section{
     padding: 10px;
 }
+label{
+    font-size: 1.3em;
+    font-weight: bold;
+}
 #bill{
     text-align: left;
 }
 #bill input{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(0, 46, 15);
     width: 100%;
-    height: 2.5em;
+    height: 2em;
     background-color: rgb(218, 242, 255);
     border: none;
     border-radius: 5px;
-    text-align: center;
+    text-align: right;
 }
 #tip{
     text-align: left;
@@ -48,12 +55,15 @@ section{
     text-align: left;
 }
 #n-people input{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(0, 46, 15);
     width: 100%;
-    height: 2.5em;
+    height: 2em;
     background-color: rgb(218, 242, 255);
     border: none;
     border-radius: 5px;
-    text-align: center;
+    text-align: right;
 }
 #result{
     padding: 15px;
@@ -92,4 +102,7 @@ section{
 }
 button:hover{
     cursor: pointer;
+}
+footer{
+    margin: 20px 0;
 }

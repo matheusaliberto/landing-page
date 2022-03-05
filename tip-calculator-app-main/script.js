@@ -11,6 +11,15 @@ function calc(ntip){
     var totaltip = ((tip*npeople)+nbill)/npeople
     totaltip = Number(totaltip.toFixed(2))
 
-    window.alert(`tip is ${tip} and total is ${totaltip}`)
+    var result = document.getElementById('resulttip')
+    var total = document.getElementById('totaltip')
+
+    value1 = `$${tip}`
+    value2 = `$${totaltip}`
+
+    result.innerText = `${value1}`
+    total.innerText = `${value2}`
+
+    
 
 }
