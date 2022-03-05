@@ -108,6 +108,9 @@ body{background-color: rgba(197,228,231,255); text-align: center;margin: 50px 0 
         font-size: 1.2em;
 
     }
+    #result button:hover{
+        background-color: rgba(101, 255, 204, 0.233);
+    }
     button:hover{
         cursor: pointer;
     }
