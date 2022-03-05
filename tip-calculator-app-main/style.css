@@ -2,107 +2,222 @@
 .attribution a { color: hsl(228, 45%, 44%);}
 *{margin: 0;padding: 0;}
 body{background-color: rgba(197,228,231,255); text-align: center;margin: 50px 0 0; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-main{
-    margin: 50px auto 0; background-color: white; border-radius: 10px;
-    max-width: 800px;
-    padding: 25px;
+
+@media screen and (min-width: 600px){
+    main{
+        margin: 50px auto 0; background-color: white; border-radius: 10px;
+        max-width: 800px;
+        padding:20px;
+        display: flex;
+    }
+    #data{
+        width: 50%;
+    }
+    section{
+        padding: 10px;
+    }
+    label{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    #bill{
+        text-align: left;
+    }
+    #bill input{
+        font-size: 1.5em;
+        font-weight: bold;
+        color:rgb(0, 46, 15);
+        width: 100%;
+        height: 2em;
+        background-color: rgb(218, 242, 255);
+        border: none;
+        border-radius: 5px;
+        text-align: right;
+    }
+    #tip{
+        text-align: left;
+    }
+    #tip-btn{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #tip-btn button:hover{
+        background-color: rgba(0, 71, 75, 0.74);
+    }
+    #tip-btn button{
+        width: 32%;
+        height: 3em;
+        margin-bottom: 5px;
+        background-color: rgba(0,71,75,255);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 1.2em;
+    }
+    #n-people{
+        text-align: left;
+    }
+    #n-people input{
+        font-size: 1.5em;
+        font-weight: bold;
+        color:rgb(0, 46, 15);
+        width: 100%;
+        height: 2em;
+        background-color: rgb(218, 242, 255);
+        border: none;
+        border-radius: 5px;
+        text-align: right;
+    }
+    #result{
+        padding: 15px;
+        background-color: rgba(0,71,75,255);
+        border-radius: 10px;
+        color: white;
+        font-size: 1.2em;
+        width: 50%;
+    }
+    #amount, #total{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    #amount a, #total a{
+        font-size: 1em;
+        text-decoration: none;
+        color: rgb(139, 139, 139);
+        font-weight: normal;
+    }
+    #amount a:hover, #total a:hover{
+        cursor: default;
+    }
+    #amount p:nth-child(2), #total p:nth-child(2){
+        font-size: 1.5em;
+    }
+    #result button{
+        margin-top: 30%;
+        width: 90%;
+        border-radius: 2px;
+        border: none;
+        height: 2em;
+        background-color: rgba(38,194,173,255);
+        color: white;
+        font-size: 1.2em;
+
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    footer{
+        margin: 20px 0;
+    }
 }
-section{
-    padding: 10px;
-}
-label{
-    font-size: 1.3em;
-    font-weight: bold;
-}
-#bill{
-    text-align: left;
-}
-#bill input{
-    font-size: 1.5em;
-    font-weight: bold;
-    color:rgb(0, 46, 15);
-    width: 100%;
-    height: 2em;
-    background-color: rgb(218, 242, 255);
-    border: none;
-    border-radius: 5px;
-    text-align: right;
-}
-#tip{
-    text-align: left;
-}
-#tip-btn{
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-#tip-btn button:hover{
-    background-color: rgba(0, 71, 75, 0.74);
-}
-#tip-btn button{
-    width: 42%;
-    height: 3em;
-    margin: 10px;
-    background-color: rgba(0,71,75,255);
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 1.2em;
-}
-#n-people{
-    text-align: left;
-}
-#n-people input{
-    font-size: 1.5em;
-    font-weight: bold;
-    color:rgb(0, 46, 15);
-    width: 100%;
-    height: 2em;
-    background-color: rgb(218, 242, 255);
-    border: none;
-    border-radius: 5px;
-    text-align: right;
-}
-#result{
-    padding: 15px;
-    background-color: rgba(0,71,75,255);
-    border-radius: 10px;
-    color: white;
-    font-size: 1.2em;
-}
-#amount, #total{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-#amount a, #total a{
-    font-size: 1em;
-    text-decoration: none;
-    color: rgb(139, 139, 139);
-    font-weight: normal;
-}
-#amount a:hover, #total a:hover{
-    cursor: default;
-}
-#amount p:nth-child(2), #total p:nth-child(2){
-    font-size: 1.5em;
-}
-#result button{
-    margin: 5px;
-    width: 80%;
-    border-radius: 2px;
-    border: none;
-    height: 2em;
-    background-color: rgba(38,194,173,255);
-    color: white;
-    font-size: 1.2em;
-}
-button:hover{
-    cursor: pointer;
-}
-footer{
-    margin: 20px 0;
+@media screen and (max-width: 599.99px){
+    main{
+        margin: 50px auto 0; background-color: white; border-radius: 10px;
+        max-width: 800px;
+        padding: 25px;
+    }
+    section{
+        padding: 10px;
+    }
+    label{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    #bill{
+        text-align: left;
+    }
+    #bill input{
+        font-size: 1.5em;
+        font-weight: bold;
+        color:rgb(0, 46, 15);
+        width: 100%;
+        height: 2em;
+        background-color: rgb(218, 242, 255);
+        border: none;
+        border-radius: 5px;
+        text-align: right;
+    }
+    #tip{
+        text-align: left;
+    }
+    #tip-btn{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #tip-btn button:hover{
+        background-color: rgba(0, 71, 75, 0.74);
+    }
+    #tip-btn button{
+        width: 42%;
+        height: 3em;
+        margin: 10px;
+        background-color: rgba(0,71,75,255);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 1.2em;
+    }
+    #n-people{
+        text-align: left;
+    }
+    #n-people input{
+        font-size: 1.5em;
+        font-weight: bold;
+        color:rgb(0, 46, 15);
+        width: 100%;
+        height: 2em;
+        background-color: rgb(218, 242, 255);
+        border: none;
+        border-radius: 5px;
+        text-align: right;
+    }
+    #result{
+        padding: 15px;
+        background-color: rgba(0,71,75,255);
+        border-radius: 10px;
+        color: white;
+        font-size: 1.2em;
+    }
+    #amount, #total{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    #amount a, #total a{
+        font-size: 1em;
+        text-decoration: none;
+        color: rgb(139, 139, 139);
+        font-weight: normal;
+    }
+    #amount a:hover, #total a:hover{
+        cursor: default;
+    }
+    #amount p:nth-child(2), #total p:nth-child(2){
+        font-size: 1.5em;
+    }
+    #result button{
+        margin: 5px;
+        width: 80%;
+        border-radius: 2px;
+        border: none;
+        height: 2em;
+        background-color: rgba(38,194,173,255);
+        color: white;
+        font-size: 1.2em;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    footer{
+        margin: 20px 0;
+    }
 }
